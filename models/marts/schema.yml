@@ -1,0 +1,55 @@
+version: 2
+
+models:
+  - name: mart_customer_lifetime_value
+    description: "{{ doc('mart_customer_lifetime_value') }}"
+    columns:
+      - name: customer_id
+        description: Primary key — one row per customer
+        tests:
+          - unique
+          - not_null
+      - name: total_orders
+        tests:
+          - not_null
+      - name: total_revenue
+        description: Lifetime revenue from fulfilled orders only
+        tests:
+          - not_null
+      - name: first_order_date
+        tests:
+          - not_null
+      - name: last_order_date
+        tests:
+          - not_null
+
+  - name: mart_daily_revenue
+    description: "{{ doc('mart_daily_revenue') }}"
+    columns:
+      - name: order_date
+        description: Primary key — one row per calendar date
+        tests:
+          - unique
+          - not_null
+      - name: gross_revenue
+        tests:
+          - not_null
+      - name: total_orders
+        tests:
+          - not_null
+
+  - name: mart_product_performance
+    description: "{{ doc('mart_product_performance') }}"
+    columns:
+      - name: product_id
+        description: Primary key — one row per product
+        tests:
+          - unique
+          - not_null
+      - name: gross_revenue
+        tests:
+          - not_null
+      - name: gross_margin
+        description: gross_revenue minus total_cost (at unit cost)
+        tests:
+          - not_null

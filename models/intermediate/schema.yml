@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: int_order_enriched
+    description: >
+      {{ doc('int_order_enriched') }}
+    columns:
+      - name: order_id
+        description: Primary key — one row per order
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+      - name: order_date
+        tests:
+          - not_null
+      - name: order_total
+        tests:
+          - not_null

@@ -1,0 +1,104 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: Cleaned customer master. One row per customer.
+    columns:
+      - name: customer_id
+        description: Primary key — natural customer id
+        tests:
+          - unique
+          - not_null
+      - name: email
+        description: Lower-cased customer email
+        tests:
+          - unique
+          - not_null
+      - name: signup_date
+        tests:
+          - not_null
+
+  - name: stg_products
+    description: Cleaned product catalog. One row per product.
+    columns:
+      - name: product_id
+        description: Primary key — natural product id
+        tests:
+          - unique
+          - not_null
+      - name: product_name
+        tests:
+          - not_null
+      - name: category
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Electronics', 'Apparel', 'Home & Kitchen', 'Sports', 'Beauty']
+      - name: unit_price
+        description: Current list price; must be non-negative (enforced by a singular test)
+        tests:
+          - not_null
+
+  - name: stg_orders
+    description: Cleaned order headers. One row per order.
+    columns:
+      - name: order_id
+        description: Primary key — natural order id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: Foreign key to stg_customers
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+      - name: order_date
+        tests:
+          - not_null
+      - name: status
+        description: Order lifecycle status
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['completed', 'shipped', 'pending', 'cancelled', 'returned']
+      - name: order_total
+        description: Recorded order total; reconciled to line items by a singular test
+        tests:
+          - not_null
+
+  - name: stg_order_items
+    description: Cleaned order line items. One row per line item.
+    columns:
+      - name: order_item_id
+        description: Primary key — natural line-item id
+        tests:
+          - unique
+          - not_null
+      - name: order_id
+        description: Foreign key to stg_orders
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_orders')
+                field: order_id
+      - name: product_id
+        description: Foreign key to stg_products
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_id
+      - name: quantity
+        tests:
+          - not_null
+      - name: line_total
+        description: Extended line amount net of discount
+        tests:
+          - not_null

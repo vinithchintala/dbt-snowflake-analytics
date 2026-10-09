@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: ecommerce
+    schema: raw
+    description: >
+      Raw e-commerce extracts. In this demo project the raw tables are loaded
+      from CSV via `dbt seed`; in production these would be the landing tables
+      populated by an ingestion pipeline (e.g. Fivetran, Airbyte, or COPY INTO).
+    tables:
+      - name: raw_customers
+        description: Raw customer master extract
+      - name: raw_orders
+        description: Raw order header extract
+      - name: raw_products
+        description: Raw product catalog extract
+      - name: raw_order_items
+        description: Raw order line-item extract

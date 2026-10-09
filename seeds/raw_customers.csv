@@ -1,0 +1,61 @@
+customer_id,first_name,last_name,email,country,signup_date
+1,Yuki,Brown,yuki.brown4@example.com,United Kingdom,2025-05-06
+2,Ella,Davis,ella.davis95@example.com,United States,2025-10-07
+3,Ava,Gupta,ava.gupta55@example.com,United States,2025-02-17
+4,Ethan,Thomas,ethan.thomas65@example.com,Canada,2025-10-15
+5,Diya,Chopra,diya.chopra90@example.com,United States,2025-04-23
+6,Nathan,Gupta,nathan.gupta36@example.com,India,2025-01-04
+7,Chloe,Young,chloe.young44@example.com,United States,2025-04-21
+8,Kabir,Smith,kabir.smith12@example.com,United States,2025-07-03
+9,Kara,Iyer,kara.iyer34@example.com,India,2025-08-24
+10,Riya,Brown,riya.brown49@example.com,United States,2025-05-31
+11,Yuki,Reddy,yuki.reddy47@example.com,United States,2025-02-05
+12,Amara,Mehta,amara.mehta30@example.com,United Kingdom,2025-02-10
+13,Ella,Smith,ella.smith49@example.com,United States,2025-07-06
+14,Chloe,Lee,chloe.lee46@example.com,United States,2025-05-17
+15,Tara,Chopra,tara.chopra10@example.com,Canada,2025-03-29
+16,Riya,Jackson,riya.jackson21@example.com,United States,2025-05-19
+17,Yuki,Mitchell,yuki.mitchell29@example.com,Canada,2025-01-29
+18,Ella,Garcia,ella.garcia41@example.com,United States,2025-02-03
+19,Ethan,Perez,ethan.perez92@example.com,United States,2025-09-13
+20,Maya,Chopra,maya.chopra59@example.com,United States,2025-03-13
+21,Farhan,Mitchell,farhan.mitchell69@example.com,United States,2025-10-27
+22,Meera,Gupta,meera.gupta52@example.com,United States,2025-03-12
+23,Priya,Baker,priya.baker12@example.com,United Kingdom,2025-02-26
+24,Ben,Nair,ben.nair21@example.com,United Kingdom,2025-08-05
+25,Vikram,Nguyen,vikram.nguyen50@example.com,United States,2025-08-28
+26,Rahul,White,rahul.white71@example.com,India,2025-01-06
+27,Marcus,Brown,marcus.brown88@example.com,Australia,2025-05-17
+28,Zara,Clark,zara.clark15@example.com,United States,2025-03-22
+29,Neha,Sharma,neha.sharma93@example.com,India,2025-05-15
+30,Priya,Moore,priya.moore65@example.com,Australia,2025-06-02
+31,Yuki,Adams,yuki.adams78@example.com,United States,2025-07-11
+32,Chloe,Carter,chloe.carter68@example.com,Australia,2025-06-15
+33,Olivia,Patel,olivia.patel15@example.com,Australia,2025-06-07
+34,Farhan,Kim,farhan.kim31@example.com,India,2025-02-10
+35,Ava,Baker,ava.baker9@example.com,Germany,2025-09-30
+36,Anika,Davis,anika.davis85@example.com,United States,2025-10-09
+37,Chloe,White,chloe.white68@example.com,India,2025-08-05
+38,Ethan,Carter,ethan.carter97@example.com,United Kingdom,2025-04-13
+39,Jack,Hall,jack.hall86@example.com,Canada,2025-08-13
+40,Rahul,King,rahul.king16@example.com,United States,2025-02-02
+41,Kabir,Patel,kabir.patel76@example.com,United States,2025-04-23
+42,Aarav,Nguyen,aarav.nguyen91@example.com,Canada,2025-04-28
+43,Arjun,Garcia,arjun.garcia43@example.com,United States,2025-05-02
+44,Hannah,Mehta,hannah.mehta63@example.com,United States,2025-03-09
+45,Sara,Perez,sara.perez61@example.com,United States,2025-08-31
+46,Mason,Taylor,mason.taylor13@example.com,United States,2025-08-09
+47,Kara,Young,kara.young53@example.com,United States,2025-01-28
+48,Marcus,Chopra,marcus.chopra83@example.com,United States,2025-07-26
+49,Kabir,Smith,kabir.smith32@example.com,United States,2025-10-02
+50,Nathan,Davis,nathan.davis55@example.com,United States,2025-08-25
+51,Farhan,Nguyen,farhan.nguyen57@example.com,India,2025-10-09
+52,Aiden,Kim,aiden.kim84@example.com,Germany,2025-01-08
+53,Ava,Jackson,ava.jackson22@example.com,United States,2025-09-04
+54,Ethan,Hall,ethan.hall8@example.com,United States,2025-01-02
+55,Lily,White,lily.white59@example.com,United States,2025-10-12
+56,Elena,Baker,elena.baker20@example.com,United States,2025-04-22
+57,Ananya,Gupta,ananya.gupta95@example.com,United States,2025-06-10
+58,Ananya,Kim,ananya.kim75@example.com,United States,2025-09-29
+59,Chloe,Kim,chloe.kim66@example.com,United States,2025-04-06
+60,Arjun,Iyer,arjun.iyer9@example.com,Canada,2025-05-01

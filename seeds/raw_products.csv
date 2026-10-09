@@ -1,0 +1,57 @@
+product_id,product_name,category,unit_price,unit_cost
+1,Wireless Noise-Cancelling Headphones,Electronics,249.99,142.50
+2,Bluetooth Portable Speaker,Electronics,79.99,41.20
+3,Smart Watch Series 7,Electronics,329.00,198.00
+4,USB-C Docking Station,Electronics,129.99,68.40
+5,Mechanical Keyboard RGB,Electronics,109.99,55.10
+6,"27"" 4K UHD Monitor",Electronics,399.99,236.00
+7,Aluminum Laptop Stand,Electronics,45.99,21.30
+8,True Wireless Earbuds,Electronics,89.99,44.80
+9,1TB Portable SSD,Electronics,119.99,71.50
+10,1080p HD Webcam,Electronics,69.99,33.60
+11,Ergonomic Gaming Mouse,Electronics,59.99,27.90
+12,20000mAh Power Bank,Electronics,39.99,18.20
+13,Smart Thermostat,Electronics,179.99,102.30
+14,Men's Organic Cotton T-Shirt,Apparel,24.99,9.80
+15,Women's Slim-Fit Jeans,Apparel,59.99,24.50
+16,Unisex Fleece Hoodie,Apparel,49.99,20.10
+17,Men's Running Shoes,Apparel,119.99,58.30
+18,Insulated Winter Jacket,Apparel,149.99,71.20
+19,Women's Summer Dress,Apparel,44.99,17.60
+20,Canvas Backpack 25L,Apparel,64.99,29.40
+21,Wool Blend Beanie,Apparel,19.99,7.30
+22,Women's Yoga Leggings,Apparel,34.99,13.90
+23,Men's Denim Jacket,Apparel,89.99,41.70
+24,Cotton Socks 5-Pack,Apparel,14.99,5.20
+25,Linen Button-Down Shirt,Apparel,54.99,22.80
+26,12-Cup Drip Coffee Maker,Home & Kitchen,89.99,46.10
+27,5.5Qt Digital Air Fryer,Home & Kitchen,129.99,66.80
+28,LED Desk Lamp with USB,Home & Kitchen,36.99,15.40
+29,10-Piece Ceramic Cookware Set,Home & Kitchen,199.99,112.50
+30,Robot Vacuum with Mapping,Home & Kitchen,299.99,171.20
+31,Memory Foam Throw Pillows 2-Pack,Home & Kitchen,42.99,18.90
+32,1.7L Electric Kettle,Home & Kitchen,47.99,21.60
+33,Bamboo Cutting Board Set,Home & Kitchen,29.99,11.80
+34,Queen Duvet Cover Set,Home & Kitchen,74.99,33.20
+35,Minimalist Wall Clock,Home & Kitchen,32.99,13.10
+36,Stainless Steel Cookware 5-Ply,Home & Kitchen,249.99,138.40
+37,Pro Yoga Mat 6mm,Sports,39.99,16.50
+38,Adjustable Dumbbell Pair 25lb,Sports,149.99,82.30
+39,Resistance Bands Set of 5,Sports,27.99,10.90
+40,Graphite Tennis Racket,Sports,99.99,51.60
+41,MIPS Bicycle Helmet,Sports,74.99,36.20
+42,Insulated Steel Water Bottle 32oz,Sports,29.99,11.40
+43,4-Person Camping Tent,Sports,189.99,104.70
+44,Pickleball Paddle Set,Sports,69.99,31.80
+45,Weighted Jump Rope,Sports,22.99,8.60
+46,High-Density Foam Roller,Sports,24.99,9.70
+47,Vitamin C Brightening Serum,Beauty,34.99,12.30
+48,Daily Moisturizer SPF 30,Beauty,28.99,10.10
+49,Ionic Hair Dryer,Beauty,79.99,38.40
+50,Sonic Electric Toothbrush,Beauty,59.99,26.70
+51,Clay Face Mask Trio,Beauty,26.99,9.40
+52,Eau de Parfum 50ml,Beauty,68.99,29.80
+53,Matte Lipstick Set of 6,Beauty,24.99,8.90
+54,Argan Shampoo & Conditioner Duo,Beauty,32.99,12.60
+55,10-Piece Makeup Brush Set,Beauty,39.99,15.20
+56,Overnight Repair Night Cream,Beauty,44.99,17.10

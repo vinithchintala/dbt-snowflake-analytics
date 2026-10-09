@@ -1,0 +1,9 @@
+# Local development profile — runs on DuckDB, zero credentials needed.
+# See README.md for the Snowflake production target.
+ecommerce_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      threads: 4
